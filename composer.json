@@ -1,0 +1,31 @@
+{
+  "name": "effective-soft/intellexer-php",
+  "type": "library",
+  "description": "Intellexer PHP SDK",
+  "keywords": [],
+  "homepage": "https://www.intellexer.com/",
+  "license": "WTFPL",
+  "authors": [
+    {
+      "name": "Nikita Makarov",
+      "email": "mesaverde228@gmail.com",
+      "role": "PHP Developer"
+    }
+  ],
+  "support": {
+    "api docs": "http://esapi.intellexer.com/"
+  },
+  "autoload": {
+    "psr-4": {
+      "EffectiveSoft\\Intellexer\\": "lib"
+    }
+  },
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "^6.3",
+    "psr/log": "^1.0"
+  },
+  "require-dev": {
+    "monolog/monolog": "^1.20"
+  }
+}
